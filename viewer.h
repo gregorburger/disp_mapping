@@ -20,7 +20,7 @@ signals:
 private:
     QGLShader *vshader;
     QGLShaderProgram *program;
-    GLuint texture;
+    GLuint height_map, texture;
     GLuint list;
 };
 
